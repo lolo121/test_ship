@@ -7,3 +7,6 @@ class mathTestCase(TestCase):
 
     def test_minus(self):
         self.assertEqual(1, (2-1))
+
+    def test_plus(self):
+        self.assertEqual(1, (1+0))
