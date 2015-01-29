@@ -1,1 +1,2 @@
 pysqlite
+django==1.6
