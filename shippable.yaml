@@ -3,4 +3,5 @@ python:
 language: python
 install: pip install --use-mirrors -r requirements.txt
 script:
-  - python mysite/manage.py test
+  - cd mysite
+  - python manage.py test
